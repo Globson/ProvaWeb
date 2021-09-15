@@ -42,6 +42,9 @@
     iframe{
         height: 600px;
     }
+    .page-footer{
+        display: none !important;
+    }
 }
 
 footer{
