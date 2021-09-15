@@ -24,69 +24,54 @@
 <body>
     <div>
         <h2 style= "font-size: 50px; text-align: center; color: black; font-weight: bold">Contato</h2>
-        <div style="color: black; text-align: center; font-size: 40px;">
-            <ul>
-                <a target="_blank" href="https://www.facebook.com/muelsena/">
-                    <i class="fab fa-facebook"></i>
-                </a>
-                <a target="_blank" href="https://github.com/Globson">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a target="_blank" href="https://www.instagram.com/muelsena/">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a target="_blank" href="https://www.linkedin.com/in/samuel-sena-3162a819a/">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a target="_blank" href="https://api.whatsapp.com/send?phone=5531986545040">
-                    <i class="fab fa-whatsapp"></i>
-                </a>
-                <a target="_blank" href="mailto:samuel.sena@ufv.br">
-                    <i class="fas fa-at"></i>
-                </a>
-            </ul>
-        </div>
+        
         <div class="row">
             <form class="col s12">
                 <div class="row">
                     <div class="input-field col s6">
-                        <input placeholder="Placeholder" id="first_name" type="text" class="validate">
-                        <label for="first_name">First Name</label>
+                        <input id="name" type="text" class="validate">
+                        <label for="name">Nome:</label>
                     </div>
+    
+                </div>
+                <div class="row">
                     <div class="input-field col s6">
-                        <input id="last_name" type="text" class="validate">
-                        <label for="last_name">Last Name</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <input disabled value="I am not editable" id="disabled" type="text" class="validate">
-                        <label for="disabled">Disabled</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <input id="password" type="password" class="validate">
-                        <label for="password">Password</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12">
                         <input id="email" type="email" class="validate">
-                        <label for="email">Email</label>
+                        <label for="email">Email:</label>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col s12">
-                        This is an inline input field:
-                        <div class="input-field inline">
-                            <input id="email_inline" type="email" class="validate">
-                            <label for="email_inline">Email</label>
-                            <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
-                        </div>
+                    <div class="input-field col s6">
+                        <input id="celular" type="text" class="validate">
+                        <label for="celular">Telefone:</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s3">
+                        <input id="date" type="date" class="validate">
+                        <label for="date">Data:</label>
                     </div>
                 </div>
             </form>
+            <form action="#">
+                <p>
+                    <label>
+                        <input type="checkbox" id="check1"/>
+                        <span>Interesse acadêmico</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" id="check2"/>
+                        <span>Interesse profissional</span>
+                    </label>
+                </p>
+            </form>
+            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                <i class="material-icons right">send</i>
+            </button>
+            <button class="btn waves-effect waves-light" type="submit" name="action">Limpar
+            </button>
         </div>
     </div>
     <!--JavaScript at end of body for optimized loading-->
